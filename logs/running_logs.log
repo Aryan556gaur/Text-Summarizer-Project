@@ -1,0 +1,608 @@
+[2024-02-03 21:00:58,804: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:01:11,504: INFO: server: Started server process [1036]]
+[2024-02-03 21:01:11,506: INFO: on: Waiting for application startup.]
+[2024-02-03 21:01:11,507: INFO: on: Application startup complete.]
+[2024-02-03 21:01:11,509: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-02-03 21:03:47,500: INFO: server: Shutting down]
+[2024-02-03 21:03:47,612: INFO: on: Waiting for application shutdown.]
+[2024-02-03 21:03:47,618: INFO: on: Application shutdown complete.]
+[2024-02-03 21:03:47,623: INFO: server: Finished server process [1036]]
+[2024-02-03 21:06:57,340: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:08:53,471: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:09:47,703: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:09:52,852: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 21:09:52,854: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 21:10:09,370: ERROR: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1553, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1574, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+[2024-02-03 21:10:09,379: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:10:09] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-02-03 21:10:10,075: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:10:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-02-03 21:11:44,053: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:11:48,982: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 21:11:48,986: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 21:11:54,624: ERROR: app: Exception on / [GET]]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1829, in make_response
+    raise TypeError(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1825, in make_response
+    rv = self.response_class.force_type(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug-2.3.6-py3.11.egg\werkzeug\wrappers\response.py", line 237, in force_type
+    response = Response(*run_wsgi_app(response, environ))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug-2.3.6-py3.11.egg\werkzeug\test.py", line 1344, in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Response.__call__() missing 1 required positional argument: 'send'
+The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a RedirectResponse.
+[2024-02-03 21:11:54,637: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:11:54] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2024-02-03 21:13:38,448: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:13:44,012: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 21:13:44,015: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 21:13:47,398: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:13:47] "GET / HTTP/1.1" 200 -]
+[2024-02-03 21:14:16,860: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-03 21:14:16,863: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-02-03 21:14:31,724: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:14:32,730: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-03 21:14:32,837: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:14:32,852: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:14:32,856: INFO: common: created directory at: artifacts]
+[2024-02-03 21:14:32,860: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-03 21:14:36,452: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FAC6:24B3E5:1315C6:1CD891:65BE5F61
+Accept-Ranges: bytes
+Date: Sat, 03 Feb 2024 15:44:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100035-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1706975073.158463,VS0,VE665
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 26fe149e2654aef4c76c923e67c39893a6d5c355
+Expires: Sat, 03 Feb 2024 15:49:33 GMT
+Source-Age: 0
+
+]
+[2024-02-03 21:14:36,792: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:14:36,792: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-03 21:14:36,797: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:14:36,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:14:36,802: INFO: common: created directory at: artifacts]
+[2024-02-03 21:14:36,803: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-03 21:14:36,805: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:14:36,808: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-03 21:14:36,814: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:14:36,821: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:14:36,822: INFO: common: created directory at: artifacts]
+[2024-02-03 21:14:36,823: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-03 21:14:54,298: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:14:54,298: INFO: main: *******************]
+[2024-02-03 21:14:54,298: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-03 21:14:54,303: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:14:54,306: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:14:54,307: INFO: common: created directory at: artifacts]
+[2024-02-03 21:14:54,308: INFO: common: created directory at: artifacts/model_trainer]
+[2024-02-03 21:24:37,967: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`]
+Traceback (most recent call last):
+  File "E:\NLP\Text-Summarization-NLP-Project-main\main.py", line 51, in <module>
+    model_trainer.main()
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\conponents\model_trainer.py", line 34, in train
+    trainer_args = TrainingArguments(
+                   ^^^^^^^^^^^^^^^^^^
+  File "<string>", line 121, in __init__
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1483, in __post_init__
+    and (self.device.type != "cuda")
+         ^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1921, in device
+    return self._setup_devices
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\generic.py", line 54, in __get__
+    cached = self.fget(obj)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1831, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+[2024-02-03 21:24:42,277: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:24:42] "GET /train HTTP/1.1" 200 -]
+[2024-02-03 21:25:41,097: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:25:41] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-02-03 21:26:28,691: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:26:28] "[33mGET /predict=Helloareyou HTTP/1.1[0m" 404 -]
+[2024-02-03 21:26:34,047: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:26:34] "[33mGET /predict=Helloareyou HTTP/1.1[0m" 404 -]
+[2024-02-03 21:26:39,813: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:26:39] "[33mGET /predict='Helloareyou' HTTP/1.1[0m" 404 -]
+[2024-02-03 21:30:07,703: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:30:07] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-02-03 21:30:50,595: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:30:56,033: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 21:30:56,037: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 21:31:04,988: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:31:04] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-02-03 21:31:19,654: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:31:19] "GET / HTTP/1.1" 200 -]
+[2024-02-03 21:31:42,650: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:31:42] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-02-03 21:32:49,775: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:32:54,933: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 21:32:54,938: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 21:33:10,763: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:33:10] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-02-03 21:33:11,315: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:33:11] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-02-03 21:33:40,543: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:33:40] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-02-03 21:33:44,156: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:33:44] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-02-03 21:34:17,151: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:34:21,765: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 21:34:21,769: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 21:34:26,890: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:34:26,895: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:34:26,896: INFO: common: created directory at: artifacts]
+[2024-02-03 21:34:26,897: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-02-03 21:34:26,899: ERROR: app: Exception on /predict [GET]]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\hub.py", line 385, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\huggingface_hub\utils\_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\huggingface_hub\utils\_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\NLP\Text-Summarization-NLP-Project-main\app.py", line 43, in predict_route
+    raise e
+  File "E:\NLP\Text-Summarization-NLP-Project-main\app.py", line 40, in predict_route
+    text = obj.predict('Great",Olivia and Olivier are voting for liberals in this election')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\pipeline\prediction.py", line 13, in predict
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 758, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 590, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\hub.py", line 450, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2024-02-03 21:34:26,922: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:34:26] "[35m[1mGET /predict HTTP/1.1[0m" 500 -]
+[2024-02-03 21:44:52,862: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:44:57,407: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 21:44:57,413: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 21:45:13,896: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-03 21:45:13,899: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-02-03 21:45:35,445: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:45:37,078: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-03 21:45:37,087: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:45:37,101: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:45:37,105: INFO: common: created directory at: artifacts]
+[2024-02-03 21:45:37,110: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-03 21:45:37,115: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-02-03 21:45:37,533: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:45:37,534: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-03 21:45:37,538: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:45:37,549: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:45:37,551: INFO: common: created directory at: artifacts]
+[2024-02-03 21:45:37,552: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-03 21:45:37,554: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:45:37,555: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-03 21:45:37,566: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:45:37,568: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:45:37,569: INFO: common: created directory at: artifacts]
+[2024-02-03 21:45:37,570: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-03 21:45:42,662: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:45:42,663: INFO: main: *******************]
+[2024-02-03 21:45:42,664: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-03 21:45:42,676: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:45:42,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:45:42,687: INFO: common: created directory at: artifacts]
+[2024-02-03 21:45:42,688: INFO: common: created directory at: artifacts/model_trainer]
+[2024-02-03 21:45:49,811: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-03 21:45:49,814: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-02-03 21:46:15,468: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:46:17,500: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-03 21:46:17,509: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:46:17,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:46:17,519: INFO: common: created directory at: artifacts]
+[2024-02-03 21:46:17,522: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-03 21:46:17,525: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-02-03 21:46:17,932: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:46:17,950: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-03 21:46:17,968: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:46:17,993: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:46:18,002: INFO: common: created directory at: artifacts]
+[2024-02-03 21:46:18,009: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-03 21:46:18,020: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:46:18,030: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-03 21:46:18,049: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:46:18,060: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:46:18,064: INFO: common: created directory at: artifacts]
+[2024-02-03 21:46:18,066: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-03 21:46:22,366: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:46:22,369: INFO: main: *******************]
+[2024-02-03 21:46:22,385: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-03 21:46:22,419: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:46:22,445: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:46:22,452: INFO: common: created directory at: artifacts]
+[2024-02-03 21:46:22,485: INFO: common: created directory at: artifacts/model_trainer]
+[2024-02-03 21:46:23,431: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`]
+Traceback (most recent call last):
+  File "E:\NLP\Text-Summarization-NLP-Project-main\main.py", line 51, in <module>
+    model_trainer.main()
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\conponents\model_trainer.py", line 34, in train
+    trainer_args = TrainingArguments(
+                   ^^^^^^^^^^^^^^^^^^
+  File "<string>", line 121, in __init__
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1483, in __post_init__
+    and (self.device.type != "cuda")
+         ^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1921, in device
+    return self._setup_devices
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\generic.py", line 54, in __get__
+    cached = self.fget(obj)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1831, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+[2024-02-03 21:47:23,954: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:47:23] "GET /train HTTP/1.1" 200 -]
+[2024-02-03 21:47:27,898: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`]
+Traceback (most recent call last):
+  File "E:\NLP\Text-Summarization-NLP-Project-main\main.py", line 51, in <module>
+    model_trainer.main()
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\conponents\model_trainer.py", line 34, in train
+    trainer_args = TrainingArguments(
+                   ^^^^^^^^^^^^^^^^^^
+  File "<string>", line 121, in __init__
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1483, in __post_init__
+    and (self.device.type != "cuda")
+         ^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1921, in device
+    return self._setup_devices
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\generic.py", line 54, in __get__
+    cached = self.fget(obj)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\training_args.py", line 1831, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+[2024-02-03 21:47:42,686: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:47:42] "GET /train HTTP/1.1" 200 -]
+[2024-02-03 21:48:16,871: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:48:16,875: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:48:16,876: INFO: common: created directory at: artifacts]
+[2024-02-03 21:48:16,877: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-02-03 21:48:16,879: ERROR: app: Exception on /predict [GET]]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\hub.py", line 385, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\huggingface_hub\utils\_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\huggingface_hub\utils\_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\NLP\Text-Summarization-NLP-Project-main\app.py", line 43, in predict_route
+    raise e
+  File "E:\NLP\Text-Summarization-NLP-Project-main\app.py", line 40, in predict_route
+    text = obj.predict('Great",Olivia and Olivier are voting for liberals in this election')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\pipeline\prediction.py", line 13, in predict
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 758, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 590, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\hub.py", line 450, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2024-02-03 21:48:16,941: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:48:16] "[35m[1mGET /predict HTTP/1.1[0m" 500 -]
+[2024-02-03 21:48:18,126: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:48:18,129: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:48:18,129: INFO: common: created directory at: artifacts]
+[2024-02-03 21:48:18,130: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-02-03 21:48:18,131: ERROR: app: Exception on /predict [GET]]
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\hub.py", line 385, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\huggingface_hub\utils\_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\huggingface_hub\utils\_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask-2.3.2-py3.11.egg\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\NLP\Text-Summarization-NLP-Project-main\app.py", line 43, in predict_route
+    raise e
+  File "E:\NLP\Text-Summarization-NLP-Project-main\app.py", line 40, in predict_route
+    text = obj.predict('Great",Olivia and Olivier are voting for liberals in this election')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\pipeline\prediction.py", line 13, in predict
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 758, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 590, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\utils\hub.py", line 450, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2024-02-03 21:48:18,150: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:48:18] "[35m[1mGET /predict HTTP/1.1[0m" 500 -]
+[2024-02-03 21:54:07,708: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:54:16,416: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 21:54:16,419: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 21:54:33,713: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-03 21:54:33,717: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-02-03 21:54:53,797: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:54:54,641: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-03 21:54:54,647: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:54:54,652: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:54:54,653: INFO: common: created directory at: artifacts]
+[2024-02-03 21:54:54,654: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-03 21:54:54,656: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-02-03 21:54:55,034: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:54:55,035: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-03 21:54:55,041: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:54:55,048: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:54:55,049: INFO: common: created directory at: artifacts]
+[2024-02-03 21:54:55,050: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-03 21:54:55,052: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:54:55,053: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-03 21:54:55,063: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:54:55,066: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:54:55,067: INFO: common: created directory at: artifacts]
+[2024-02-03 21:54:55,068: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-03 21:54:57,388: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:54:57,389: INFO: main: *******************]
+[2024-02-03 21:54:57,390: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-03 21:54:57,397: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:54:57,400: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:54:57,401: INFO: common: created directory at: artifacts]
+[2024-02-03 21:54:57,401: INFO: common: created directory at: artifacts/model_trainer]
+[2024-02-03 21:56:35,093: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-03 21:56:35,099: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-02-03 21:57:24,339: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 21:57:26,308: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-03 21:57:26,321: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:57:26,325: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:57:26,326: INFO: common: created directory at: artifacts]
+[2024-02-03 21:57:26,342: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-03 21:57:26,358: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-02-03 21:57:26,951: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:57:26,954: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-03 21:57:26,974: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:57:26,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:57:27,007: INFO: common: created directory at: artifacts]
+[2024-02-03 21:57:27,013: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-03 21:57:27,058: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 21:57:27,059: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-03 21:57:27,069: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 21:57:27,087: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 21:57:27,099: INFO: common: created directory at: artifacts]
+[2024-02-03 21:57:27,112: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-03 21:57:31,274: ERROR: main: [Errno 22] Invalid argument: 'E:/NLP/Text-Summarization-NLP-Project-main/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "E:\NLP\Text-Summarization-NLP-Project-main\main.py", line 38, in <module>
+    data_transformation.main()
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert()
+  File "e:\nlp\text-summarization-nlp-project-main\src\textSummarizer\conponents\data_transformation.py", line 32, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\datasets\dataset_dict.py", line 1289, in save_to_disk
+    dataset.save_to_disk(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\datasets\arrow_dataset.py", line 1535, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\datasets\arrow_dataset.py", line 1559, in _save_to_disk_single
+    writer = ArrowWriter(
+             ^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\datasets\arrow_writer.py", line 336, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\fsspec\spec.py", line 1307, in open
+    f = self._open(
+        ^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\fsspec\implementations\local.py", line 180, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\fsspec\implementations\local.py", line 302, in __init__
+    self._open()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\fsspec\implementations\local.py", line 307, in _open
+    self.f = open(self.path, mode=self.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'E:/NLP/Text-Summarization-NLP-Project-main/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-02-03 21:57:34,097: INFO: _internal: 127.0.0.1 - - [03/Feb/2024 21:57:34] "GET /train HTTP/1.1" 200 -]
+[2024-02-03 22:31:13,758: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 22:31:23,530: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080]
+[2024-02-03 22:31:23,531: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-03 22:31:36,544: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-03 22:31:36,549: INFO: config: TensorFlow version 2.15.0 available.]
+[2024-02-03 22:32:00,486: WARNING: module_wrapper: From C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-03 22:32:01,717: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-03 22:32:01,738: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 22:32:01,743: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 22:32:01,750: INFO: common: created directory at: artifacts]
+[2024-02-03 22:32:01,763: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-03 22:32:01,766: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-02-03 22:32:02,094: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-03 22:32:02,095: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-03 22:32:02,099: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 22:32:02,103: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 22:32:02,104: INFO: common: created directory at: artifacts]
+[2024-02-03 22:32:02,106: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-03 22:32:02,121: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 22:32:02,122: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-03 22:32:02,130: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 22:32:02,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 22:32:02,133: INFO: common: created directory at: artifacts]
+[2024-02-03 22:32:02,134: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-03 22:32:05,151: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-02-03 22:32:05,152: INFO: main: *******************]
+[2024-02-03 22:32:05,152: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-03 22:32:05,156: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-03 22:32:05,169: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-03 22:32:05,170: INFO: common: created directory at: artifacts]
+[2024-02-03 22:32:05,170: INFO: common: created directory at: artifacts/model_trainer]
